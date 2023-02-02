@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    /* background-color: rgb(215, 222, 241); */
+}
+.logo img{
+    width: 69px;
+    margin: 1px 20px;
+
+}
+.navlist{
+    display: flex;
+}
+.navlist li{
+    list-style: none;
+    padding: 20px;
+}
+.navlist li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+.navlist li a:hover{
+    color: rgb(94, 102, 211);
+    /* background-color: gray;
+    border-radius: 20px; */
+    letter-spacing: 2px;
+}
+.account button{
+    padding: 5px 20px;
+    background: none;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 19px;
+    
+}
+.account button:hover{
+   color: white;
+   background-color: rgb(94, 102, 211);
+}
+.home{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    
+    font-size: 25px;
+   
+     background-position: center; 
+}
+
+.home::before {
+    content: "";
+    z-index: -1;
+    background-image: url(bg.jpg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+     background-size: cover;
+}
+ .h2{
+    text-align: center;
+    justify-content: center;
+    font-size: 2.6rem;
+}
+.menu {
+    margin: 20px;
+    height: 669px;
+}
+
+
+.rest{
+    display: flex;
+    margin: 15px 150px;
+    /* border: 2px solid red; */
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.rest p{
+    padding: 20px;
+    font-size: 1.2rem;
+}
+.recipe{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.recipe::before {
+    content: "";
+    z-index: -1;
+    background-image: url(bg1.jpg);
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    opacity: 0.8;
+     background-size: cover;
+}
+.rpt{
+    margin-top: 18rem;
+    display: flex;
+}
+.box img{
+    width: 200px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    margin: auto;
+}
+.box{
+    border: 2px solid black;
+    margin: 10px 20px;
+    padding: 20px;
+    text-align: center;
+}
+.about{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(210, 230, 231);
+    height: 300px;
+    padding: 80px;
+}
+.about img{
+    width: 200px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
